@@ -33,42 +33,127 @@ The goal is to demonstrate practical **Data Analyst skills** by converting raw c
 
 **Skills Demonstrated:** Data Cleaning • Exploratory Data Analysis • SQL • Data Visualization • Power BI • DAX • Business Intelligence • Data Storytelling
 
-🛠️ How to Use This Project
-Clone the repository
+## 🛠️ How to Use This Project
 
-https://github.com/Vibhanshu2004-hash/Customer-Behavior-Retail-Analytics-Dashboard-Python-SQL-Power-BI.git
+Follow the steps below to set up and explore the complete Customer Behavior Retail Analytics project.
 
-Open Customer_Shopping_Behavior_Analysis.ipynb notebook
+### 1. Clone the Repository
 
-This file contains:
+Clone the GitHub repository to your local machine:
 
-Data Import
+```bash
+git clone https://github.com/Vibhanshu2004-hash/Customer-Behavior-Retail-Analytics-Dashboard-Python-SQL-Power-BI.git
+cd Customer-Behavior-Retail-Analytics-Dashboard-Python-SQL-Power-BI
+```
 
-Data exploration
+### 2. Open the Python Notebook
 
-Data cleaning
+Open the following Jupyter Notebook:
 
-Connection to SQL Database
+```text
+Customer_Shopping_Behavior_Analysis.ipynb
+```
 
-Load the data from Python notebook into MySQL/PostgreSQL/MS SQL Server
+The notebook contains:
 
-Create a database in SQL
+* Data Import
+* Data Exploration
+* Data Cleaning & Preprocessing
+* Exploratory Data Analysis (EDA)
+* Feature Engineering
+* Connection to SQL Database
 
-Run Python code to load data into SQL database
+### 3. Load Data into SQL Database
 
-Open customer_behavior_sql_queries.sql
+Use the Python notebook to load the cleaned dataset into your preferred SQL database:
 
-Answer Business Questions using SQL Queries
+* MySQL
+* PostgreSQL
+* Microsoft SQL Server
 
-Connect the SQL Database to Power BI
+Steps:
 
-Open customer_behavior_dashboard.pbix
+1. Create a database in your preferred SQL platform.
+2. Configure the database connection in the Python notebook.
+3. Run the Python code to load the cleaned data into the SQL database.
+4. Verify that the data has been successfully imported.
 
-Create interactive dashboard in Power BI
+### 4. Run SQL Business Analysis
 
-Create Project Report and Presentation
+Open the SQL queries file:
 
-Create project report
+```text
+customer_behavior_sql_queries.sql
+```
+
+Run the queries to answer key business questions related to:
+
+* Customer purchasing behavior
+* Customer segmentation
+* Revenue and sales performance
+* Product/category performance
+* Customer loyalty
+* Purchase frequency
+* Subscription behavior
+* Customer demographics
+
+### 5. Connect SQL Database to Power BI
+
+Open the Power BI dashboard file:
+
+```text
+customer_behavior_dashboard.pbix
+```
+
+Connect Power BI to the SQL database containing the cleaned customer data.
+
+Then refresh the dataset and explore the interactive dashboard.
+
+The dashboard provides insights through:
+
+* KPI Cards
+* Customer Segmentation
+* Revenue Analysis
+* Category Performance
+* Demographic Analysis
+* Purchase Behavior
+* Subscription Analysis
+* Interactive Filters & Slicers
+
+### 6. Create Project Report & Presentation
+
+Document the project findings in a structured project report covering:
+
+* Project Objective
+* Data Preparation
+* Exploratory Analysis
+* SQL Analysis
+* Power BI Dashboard
+* Key Insights
+* Business Recommendations
+
+You can also create a presentation deck using **Gamma AI** to communicate the project's findings and recommendations in a clear and visually engaging format.
+
+### 🔄 Project Workflow
+
+```text
+Raw Customer Data
+        ↓
+Python Data Cleaning & EDA
+        ↓
+SQL Database
+        ↓
+SQL Business Analysis
+        ↓
+Power BI Dashboard
+        ↓
+Business Insights
+        ↓
+Report & Presentation
+```
+
+
+
 
 Build presentation deck using Gamma AI
 
