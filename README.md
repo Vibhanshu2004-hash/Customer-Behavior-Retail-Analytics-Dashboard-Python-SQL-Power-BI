@@ -152,8 +152,3 @@ Business Insights
 Report & Presentation
 ```
 
-
-
-
-Build presentation deck using Gamma AI
-
